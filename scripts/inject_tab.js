@@ -1,4 +1,4 @@
-import { AZ } from './main.js';
+import { AZ } from './az.js';
 import { BUILDER } from './builder.js';
 
 /**
