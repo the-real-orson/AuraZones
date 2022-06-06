@@ -709,14 +709,14 @@ Hooks.on('renderActiveEffectConfig', (sheet, html) => {
   const tab = `<a class="item" data-tab="AuraZones"><i class="fas fa-cogs"></i> Aura</a>`;
 
   // begin injection
-  const nav = html.find('nav.sheet-tabs'); // still have this bit of jQuery
+  const nav = html.find('nav.sheet-tabs'); // TODO still have this bit of jQuery
   // Add the AZ tab button:
   nav.append(tab);
   // Add the AZ tab content:
   if (zoneData?.isAuraZone === null) {
-    html.find('section.tab').last().after(appliedEffectContents);
+    html.find('section.tab').last().after(appliedEffectContents); // TODO still have this bit of jQuery
   } else {
-    html.find('section.tab').last().after(mainContents);
+    html.find('section.tab').last().after(mainContents); // TODO still have this bit of jQuery
   }
   //widen the sheet
   // TODO: only want to widen the sheet if it is core/system, not already widened
