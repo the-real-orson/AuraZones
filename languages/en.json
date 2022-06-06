@@ -1,3 +1,108 @@
 {
-    "MODULE.hello": "hello"
+    "AZCONFIG": {
+    "tab-label": "Aura",
+    "is-aura-zone": "Active Effect is an Aura Zone:",
+    "radius": {
+      "Label": "Aura radius (feet, meters, ...etc.):"
+    },
+    "point-padding": "Aura radiates from the source token's edges (else token's center):",
+    "check-3D": {
+      "Use": "Check 3D(elevation/height):",
+      "Shape": "Is the aura a sphere or a cylinder?",
+      "Sphere": "sphere",
+      "Cylinder": "cylinder",
+      "CylinderHeight": {
+        "Label": "Enter the cylinder height (feet, meters, ...etc.):"
+      },
+      "Offset": {
+        "Pre": "Offset(feet/meters) from the bottom of the token(elevation) to the ",
+        "Sphere": "center of the sphere:",
+        "Cylinder": "bottom edge of the cylinder:",
+        "Hint": "example: '2.5'"
+      }
+    },
+    "display-on-recipient": "Display effect icon on receiving tokens:",
+    "explanation": {
+      "Label": "Show/Hide Explanation",
+      "Text": "An aura zone radiates from a token regardless of whether the token-actor's effect is temporary, passive, or inactive.  The following two settings are intended to allow for fine-tuning token icon display and animations on the source token. See documentation for a full explanation."
+    },
+    "exclude-source": "Prevent an aura-applied effect from being added to the source token's actor:",
+    "clone": "Clone the applied effect without active effects onto the source token's actor",
+    "criteria": {
+      "All": "All tokens are eligible for the aura:",
+      "ActorType": {
+        "Use": "Filter by Actor type (character, npc, vehicle.)",
+        "NPC": "Include NPC actors",
+        "PC": "Include PC actors",
+        "Vehicle": "Include Vehicle actors"
+      },
+      "Alignment": {
+        "Use": "Filter by alignment",
+        "LG": "include LG",
+        "NG": "include NG",
+        "CG": "include CG",
+        "LN": "include LN",
+        "NN": "include NN",
+        "CN": "include CN",
+        "LE": "include LE",
+        "NE": "include NE",
+        "CE": "Include CE"
+      },
+      "Disposition": {
+        "Use": "Filter by token disposition (friendly, neutral, hostile)",
+        "Friendly": "include Friendly",
+        "Neutral": "include Neutral",
+        "Hostile": "include Hostile"
+      },
+      "Size": {
+        "Use": "Filter by creature size",
+        "Tiny": "include Tiny",
+        "Sm": "include Small",
+        "Med": "include Medium",
+        "Lg": "include Large",
+        "Huge": "include Huge",
+        "Grg": "include Gargantuan"
+      },
+      "Type": {
+        "Use": "Filter by creature type (all PCs default to 'humanoid')",
+        "Aberration": "include Aberrations",
+        "Beast": "include Beasts",
+        "Celestial": "include Celestials",
+        "Construct": "include Constructs",
+        "Dragon": "include Dragons",
+        "Elemental": "include Elementals",
+        "Fey": "include Fey",
+        "Fiend": "include Fiends",
+        "Giant": "include Giants",
+        "Humanoid": "include Humanoids",
+        "Monstrosity": "include Monstrosities",
+        "Ooze": "include Oozes",
+        "Plant": "include Plants",
+        "Undead": "include Undead"
+      },
+      "Swarm": "Include Swarms",
+      "Subtype-Race": {
+        "Use": "Include creatures whose Race(PCs) or Subtype(NPCs) contain ______ :",
+        "Label": "enter a word or phrase:",
+        "Hint": "'elf' would include Elf, wood elf, Elf Scholar,...etc"
+      },
+      "CustomTypeBG": {
+        "Use": "Include creatures whose Background(PCs) or Custom Type(NPCs) contain ______ :",
+        "Label": "enter a word or phrase:",
+        "Hint": "'faction' would include MyFaction, faction 9,...etc."
+      },
+      "Override": {
+        "Title": "Override Previous Criteria:",
+        "Text": "tags ignore all other criteria (requires the Tagger module)"
+      },
+      "IncludeTag": {
+        "Label": "Include tokens which are tagged:",
+        "Hint": "example: 'party' includes tokens tagged 'party'"
+      },
+      "ExcludeTag": {
+        "Label": "Exclude tokens which are tagged:",
+        "Hint": "example: 'party' excludes tokens tagged 'party'"
+      }
+    }
+  }
 }
