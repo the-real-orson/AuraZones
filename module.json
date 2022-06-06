@@ -1,7 +1,7 @@
 {
-  "name": "module",
-  "title": "New Module",
-  "description": "",
+  "name": "aurazones",
+  "title": "Aura Zones",
+  "description": "Make active effects into auras centered on a token",
   "version": "This is auto replaced",
   "library": "false",
   "manifestPlusVersion": "1.0.0",
@@ -9,9 +9,9 @@
   "compatibleCoreVersion": "9",
   "authors": [
     {
-      "name": "The League of Extraordinary FVTT Developers",
+      "name": "Owen Sechrist",
       "url": "https://github.com/League-of-Foundry-Developers",
-      "discord": "discordID#0001"
+      "discord": "Morthallion#7407"
     }
   ],
   "dependencies": [
@@ -21,7 +21,9 @@
     
   ],
   "esmodules": [
-    "scripts/module.js"
+    "scripts/module.js",
+    "scripts/builder.js",
+    "scripts/inject_tab.js
   ],
   "scripts": [
     "scripts/lib/lib.js"
