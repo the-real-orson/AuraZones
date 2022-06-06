@@ -1,0 +1,95 @@
+div.bb1 {
+    border-bottom: 1px solid var(--color-border-light-primary);
+}
+
+#toggleAllCrit {
+    padding-left: 10px;
+    border-style: inset;
+}
+
+.groovy {
+    padding-left: 380px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-style: groove;
+}
+
+#toggle3D {
+    padding-left: 10px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-style: groove;
+}
+
+#alignment {
+    padding-left: 200px;
+    padding-right: 10px;
+    margin-left: 20px;
+    margin-right: 5px;
+    border-style: groove;
+}
+
+.tar {
+    text-align: right;
+}
+
+#cylHeight, #offSet {
+    display: block;
+    padding-left: 30px;
+}
+
+.numberIn {
+    width: 80px !important;
+    float: right;
+}
+
+.AZhidden {
+    max-height: 0; /* makes the element invisible due to no height */
+    overflow: hidden; /* hides the visual overflow when the elements height is smaller then the contents height */
+    transition: max-height 0.75s ease-out; /* smooth-transition between both "states" */ 
+}
+
+.AZvisible {
+    max-height: 2000px; /* insanely high value */
+    transition: max-height 0.75s ease-in; /* smooth-transition between both "states" */
+}
+  
+div#bigDiv.AZvisible {
+    transition: max-height 0.75s ease-in; /* smooth-transition between both "states" */
+    max-height:500px; 
+    padding-left: 10px;
+    overflow-y: auto;
+}
+
+.AZdim {
+    color: rgb(0 0 0 / 38%);
+}
+
+.AZbright {
+    color: rgb(25, 24, 19);
+}
+
+#AZoverrides {
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 0.9em;
+}
+
+select#AZselectShape {
+    width: 6em !important;
+    float: right
+}
+
+div#cylsphere {
+    display: block;
+}
+
+.color2 {
+    color: darkviolet;
+}
+
+.color1 {
+    color: blue;
+}
