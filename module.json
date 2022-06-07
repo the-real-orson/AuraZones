@@ -15,15 +15,16 @@
     }
   ],
   "dependencies": [
-
+    {
+      "name": "socketlib",
+      "manifest": "https://raw.githubusercontent.com/manuelVo/foundryvtt-socketlib/master/module.json"
+    }
   ],
   "conflicts": [
     
   ],
   "esmodules": [
-    "scripts/module.js",
-    "scripts/builder.js",
-    "scripts/inject_tab.js
+    "scripts/aurazones.js"
   ],
   "scripts": [
     "scripts/lib/lib.js"
@@ -38,6 +39,7 @@
       "path": "languages/en.json"
     }
   ],
+  "socket": true,
   "url": "This is auto replaced",
   "manifest": "This is auto replaced",
   "download": "This is auto replaced",
